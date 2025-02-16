@@ -1,135 +1,22 @@
-/* General Styles */
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #333;
+    font-family: 'Sans-serif';
+}
+
+header {
+    background-color: #FBBF24;
     color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.featured-dishes, .testimonials, .about, .contact {
+    padding: 1.5rem;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
     padding: 1rem;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  h1, h2 {
-    text-align: center;
-  }
-  
-  button {
-    background-color: #f5a623;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #e89e19;
-  }
-  
-  /* Hero Section */
-  #hero {
-    background: url('south-indian-food.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  #hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-  }
-  
-  #hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Menu Section */
-  #menu {
-    background-color: #f5f5f5;
-    padding: 50px 20px;
-  }
-  
-  .menu-items {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .menu-item {
-    text-align: center;
-  }
-  
-  .menu-item img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  #about, #contact {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  form input, form textarea {
-    padding: 10px;
-    margin: 10px;
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  form button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #45a049;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  /* Media Queries */
-  @media (max-width: 768px) {
-    .menu-items {
-      flex-direction: column;
-    }
-    
-    form input, form textarea {
-      width: 90%;
-    }
-  }
-  
+}
