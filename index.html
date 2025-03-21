@@ -1,84 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>South Indian Cuisine</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Indian Elegance</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+
+<body style="color: black;">
+    <nav
+        style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #0073e6; color: white;">
+
+        <div style="font-size: 1.5em; font-weight: bold;">
+            <a href="index.html" style="white-space: nowrap; color: white; text-decoration: none;">South Indian
+                Elegance</a>
+        </div>
+        <div style="display: flex; gap: 20px;">
+            <a href="index.html" style="white-space: nowrap; color: white; text-decoration: none;">Home</a>
+            <a href="menu.html" style="white-space: nowrap; color: white; text-decoration: none;">Menu</a>
+            <a href="blog.html" style="white-space: nowrap; color: white; text-decoration: none;">Blog</a>
+            <a href="about.html" style="white-space: nowrap; color: white; text-decoration: none;">About Us</a>
+            <a href="contact.html" style="white-space: nowrap; color: white; text-decoration: none;">Contact Us</a>
+            <a href="landing.html" style="white-space: nowrap; color: white; text-decoration: none;">Landing</a>
+            <a href="thankyou.html" style="white-space: nowrap; color: white; text-decoration: none;">Thank You!</a>
+        </div>
+
     </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Welcome to South Indian Cuisine</h1>
-      <p>Experience authentic flavors of South India</p>
-      <button onclick="window.location.href='#menu'">Explore Menu</button>
-    </div>
-  </section>
+    <header
+        style="color: black; background-image: url('https://source.unsplash.com/1600x400/?south-indian-food'); background-size: cover; background-position: center; padding: 40px; text-align: center;">
+        <h1>Welcome to South Indian Elegance</h1>
+        <p>Where Tradition Meets Taste!</p>
+        <p>Experience the authentic flavors of South India, from crispy dosas to aromatic biryanis, all made with love
+            and tradition.</p>
+        <button onclick="window.location.href='menu.html'">Order Online</button>
+        <button onclick="window.location.href='booking-confirmation.html'">Book a Table</button>
+    </header>
 
-  <!-- Menu Section -->
-  <section id="menu">
-    <h2>Our Special Dishes</h2>
-    <div class="menu-items">
-      <div class="menu-item">
-        <img src="dosa.jpg" alt="Dosa">
-        <h3>Dosa</h3>
-        <p>Delicious crispy crepes served with chutney and sambar.</p>
-      </div>
-      <div class="menu-item">
-        <img src="idli.jpg" alt="Idli">
-        <h3>Idli</h3>
-        <p>Soft, steamed rice cakes with coconut chutney and sambar.</p>
-      </div>
-      <div class="menu-item">
-        <img src="sambar.jpg" alt="Sambar">
-        <h3>Sambar</h3>
-        <p>Spicy lentil soup with vegetables, perfect with rice or dosa.</p>
-      </div>
-    </div>
-  </section>
+    <section class="featured-dishes"
+        style="background-size: cover; background-position: center; padding: 30px; color: black;">
+        <h2>Our Signature Dishes</h2>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div
+                style="width: 60%; background: #ffffff; margin: 10px; padding: 20px; border-radius: 10px; text-align: left;">
+                <p class="customer-name">Masala Dosa &nbsp;&nbsp;&nbsp;</p>
+                <p>A crispy rice and lentil crepe filled with spiced potatoes, served with coconut chutney and sambar.
+                </p>
+            </div>
+            <div
+                style="width: 60%; background: #ffffff; margin: 10px; padding: 20px; border-radius: 10px; text-align: right;">
+                <p class="customer-name">Hyderabadi Biryani </p>Fragrant basmati rice cooked with tender chicken or
+                vegetables, infused with aromatic spices.
+            </div>
+            <div
+                style="width: 60%; background: #ffffff; margin: 10px; padding: 20px; border-radius: 10px; text-align: left;">
+                <p class="customer-name">Filter Coffee </p>Traditional South Indian coffee brewed with freshly ground
+                coffee beans and served in a stainless steel tumbler.
+            </div>
+        </div>
+    </section>
 
-  <!-- About Us Section -->
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We serve authentic South Indian dishes made from fresh ingredients and traditional recipes.</p>
-  </section>
+    <section class="testimonials"
+        style="background-size: cover; background-position: center; padding: 30px; color: black;">
+        <h2 style="text-align: center; color: black; margin-bottom: 20px;">What Our Customers Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"The best South Indian food I’ve ever had! The dosas were crispy, and the sambar was flavorful."</p>
+                <p class="customer-name">– Vikas KS.</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"A true taste of South India. The biryani reminded me of home."</p>
+                <p class="customer-name">– Manasa NMVSL.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" required>
-      
-      <label for="message">Message:</label>
-      <textarea id="message" required></textarea>
-      
-      <button type="submit">Submit</button>
-    </form>
-  </section>
+    <footer class="footer">
+        <p>&copy; 2023 South Indian Elegance. All rights reserved.</p>
+        <p>The information provided on this website is intended for educational purposes only. While every effort has
+            been made to ensure the accuracy and reliability of the content, the university does not guarantee its
+            completeness or effectiveness. This website will be deactivated once the course is completed. Some images
+            used on this site have been sourced from the internet and are included for educational and practice purposes
+            only. If you are the copyright owner of any image and believe it has been used without proper attribution,
+            please contact us, and we will make the necessary corrections.</p>
+    </footer>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 South Indian Cuisine. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
 
+</html>
